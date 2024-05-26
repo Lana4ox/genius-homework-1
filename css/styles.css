@@ -1,0 +1,294 @@
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+        src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('../fonts/roboto-v30-latin-regular.woff') format('woff');
+        /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+}
+
+/* play-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+        src: url('../fonts/play-v19-latin-regular.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('../fonts/play-v19-latin-regular.woff') format('woff');
+        /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+}
+
+/* play-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+        src: url('../fonts/play-v19-latin-700.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('../fonts/play-v19-latin-700.woff') format('woff');
+        /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+}
+
+:root {
+    --color-brend: #2b7fff;
+    --color-primary-dark: #011c44;
+    --color-primary-light: #ffffff;
+    --color-notes-dark: #4a4a4a;
+    --color-notes-light: #747272;
+    --color-star-dark: #011f4a;
+    --color-advantages-text: #000000;
+    --color-accent: #ffd02b;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    color: var(--color-primary-dark);
+    background-color: var(--color-primary-light);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+} 
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: flex;
+}
+
+
+/* ---------- header ---------- */
+
+.header {}
+
+.header-nav {}
+
+.header-logo {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+        font-size: 22px;
+        line-height: 0.95455;
+        text-transform: capitalize;
+        color: var(--color-brend);
+}
+
+.header-menu {}
+
+
+.header-menu-item {}
+
+.header-menu-link {
+    font-size: 18px;
+        color: var(--color-primary-dark);
+}
+
+.header-menu-link:hover {
+    font-weight: 700;
+        font-size: 18px;
+        color: var(--color-brend);
+}
+
+.header-socials {}
+
+.header-socials-item {}
+
+.header-socials-link {}
+
+
+/* ---------- hero ---------- */
+
+.hero {}
+
+.hero-text {
+    font-size: 18px;
+        color: var(--color-primary-dark);
+}
+
+.hero-title {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+        font-size: 140px;
+        line-height: 0.81429;
+        text-transform: capitalize;
+        color: var(--color-brend);
+}
+
+.hero-btn {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--color-primary-light);
+    border-radius: 32px;
+    border: none;
+        padding: 16px 32px;
+        min-width: 219px;
+        height: 53px;
+        background-color: var(--color-brend);
+}
+
+.hero-btn:hover {
+    color: var(--color-primary-dark);
+    background-color: transparent;
+    border: 2px solid var(--color-brend);
+}
+
+.hero-btn-descr {
+    font-size: 12px;
+        line-height: 1.5;
+        color: var(--color-notes-dark);
+}
+
+
+/* ----------section 1---------- */
+
+.section-title {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+        font-size: 64px;
+        color: var(--color-primary-dark);
+}
+
+.title-accent {
+    color: var(--color-brend);
+}
+
+.beauty-zone {
+    text-transform: capitalize;
+}
+
+.section-text {
+    font-size: 22px;
+    line-height: 1.72727;}
+
+
+.text-accent {
+    font-weight: 600;
+        text-transform: capitalize;
+}
+
+
+/* ---------- advatages ---------- */
+
+
+.section-descr {
+    font-size: 18px;
+        line-height: 1.33333;
+        text-align: center;
+        color: var(--color-advantages-text);
+}
+
+
+
+/* ---------- procedures */
+
+.procedures {}
+
+.procedures-list {}
+
+.procedures-list-item {}
+
+.procedures-list-title {
+    font-size: 22px;
+        line-height: 1.18182;
+        text-align: center;
+        color: var(--color-primary-light);
+}
+
+
+/* ---------- footer ---------- */
+
+.footer {
+    background: var(--color-primary-dark);
+}
+
+.footer-logo {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+        font-size: 24px;
+        line-height: 0.875;
+        text-transform: capitalize;
+        color: var(--color-brend);
+}
+
+.footer-nav {}
+
+.footer-nav-list {}
+
+.footer-nav-item {}
+
+.footer-nav-link {
+    font-size: 16px;
+    color: var(--color-primary-light);
+}
+
+.footer-nav-link:hover {
+font-weight: 700;
+font-size: 18px;
+color: var(--color-brend);
+}
+    
+.footer-address {}
+
+.footer-address-list {}
+
+.footer-address-item {}
+
+.footer-address-link {
+    font-style: normal;
+font-size: 16px;
+color: var(--color-primary-light);
+}
+
+.footer-address-link:hover {
+font-weight: 700;
+    font-size: 18px;
+    color: var(--color-brend)
+}
+
+.footer-socials {}
+
+.footer-socials-item {}
+
+.footer-socials-link {}
+
+.footer-link {
+    font-size: 16px;
+        color: #fff;
+}
+
+.footer-link:hover {
+    font-weight: 700;
+        font-size: 18px;
+        color: var(--color-brend)
+}
+
+.footer-text {
+    font-size: 13px;
+        color: var(--color-notes-light);
+}
+
+
